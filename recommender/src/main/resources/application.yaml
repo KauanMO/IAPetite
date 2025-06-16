@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: recommender
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Recommender
+    username: postgres
+    password: kauan123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
